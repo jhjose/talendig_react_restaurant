@@ -1,0 +1,20 @@
+nav {
+    max-height: 50px;
+    padding: 10px;
+    box-shadow: 2px 0px 3px 2px rgba(0,0,0,0.28);
+    -webkit-box-shadow: 2px 0px 3px 2px rgba(0,0,0,0.28);
+    -moz-box-shadow: 2px 0px 3px 2px rgba(0,0,0,0.28);
+}
+nav img {
+    height: 45px;
+    width: 45px;
+}
+.section_news_recenly {
+    padding: 10px;
+}
+.section_news_recenly article {
+    height: 200px; 
+    width: 200px; 
+    border: 1px solid red;
+    margin: 15px;
+}

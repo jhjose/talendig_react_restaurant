@@ -7,6 +7,100 @@
   pointer-events: none;
 }
 
+body {
+  letter-spacing: 1px;
+  margin: 0;
+}
+a {
+  color: #bd4141; 
+}
+.text-brand {
+  color: #ff5757;
+}
+.text-primary {
+  color: #bd4141; /* Primary Color */
+}
+.text-secondary {
+  color: #474747; /* Secondary Color */
+}
+
+h1, h2 {
+  text-transform:uppercase;
+}
+h3, h4 {
+  text-transform:capitalize;
+  border-bottom: 1px dashed red;
+}
+h5 {
+  text-transform: lowercase;
+}
+.d-flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-left {
+  justify-content: left;
+}
+.justify-content-right {
+  justify-content: right;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.p-1 {
+  padding: 5px; /* INSIDE SPACE */
+}
+.p-2 {
+  padding: 10px; 
+}
+.m-1 {
+  margin: 5px; /* OUTSIDE SPACE */
+}
+.m-2 {
+  margin: 10px;
+}
+.circle_gray {
+  background-color: #eeeeee;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.circle_gray a {
+  color: #525252;
+}
+.circle_gray a:hover {
+  color: #bd4141;
+}
+.circle_gray button {
+  color: #525252;
+  height: 28px;
+  min-width: 24px;
+  width: 24px;
+}
+.circle_gray button:hover {
+  color: #bd4141;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -19,10 +19,13 @@
 }
 */
 form {
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 15px;
+    /*padding: 10px 20px 10px 10px;*/
 }
 
 form button {
@@ -42,6 +45,33 @@ form label {
     font-weight: 500;
 }
 
+form input[type=text], form input[type=password], form input[type=email] {
+    background-color: white !important;
+    height: 37px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px #d5d5d5 solid;
+}
+
+input[type="checkbox" i] {
+    width: 20px;
+}
+
+form select {
+    background-color: white !important;
+    height: 37px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px #d5d5d5 solid;
+}
+
 .text-center {
     text-align: center;
+}
+
+form h1 {
+    font-size: 13px;
+    color: #565656;
+    padding: 10px;
+    background-color: #e7e7e7;
 }

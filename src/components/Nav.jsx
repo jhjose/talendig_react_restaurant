@@ -41,7 +41,7 @@ export default function Nav(props){
     }
 
     return (
-        <nav className="d-flex flex-row align-items-center justify-content-between">
+        <nav className="d-flex flex-row align-items-center justify-content-between w-100">
             <div>
                 <LogoIcon alt={'App Logo'} />
             </div>

@@ -23,7 +23,7 @@ export default function Nav(props){
     };
 
     return (
-        <nav class="d-flex flex-row align-items-center justify-content-between">
+        <nav className="d-flex flex-row align-items-center justify-content-between">
             <div>
                 <img src={Logo} alt="" />
             </div>
